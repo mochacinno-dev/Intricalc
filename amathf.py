@@ -7,8 +7,8 @@ Advanced Mathematic Logic functions.
 
 import math
 
-def square(a, b):
-    square = math.sqrt(a, b)
+def square(a):
+    square = math.sqrt(a)
     return square
 
 def power(a, b):
@@ -18,6 +18,10 @@ def power(a, b):
 def cosene(a):
     cosene = math.cos(a)
     return cosene
+
+def sin(a):
+    sine = math.sin(a)
+    return sine
 
 def tangent(a):
     tangent = math.tan(a)
@@ -30,4 +34,8 @@ def arccos(a):
 def arcotan(a):
     arcotang = math.atan(a)
     return arcotang
+
+def arcosin(a):
+    arcosine = math.asin(a)
+    return arcosine
     
